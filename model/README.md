@@ -3,7 +3,7 @@
 ## Overview
 
 This repository provides the LoRA adapter weights for a **supporter model** designed for supportive response generation in emotional support dialogues.  
-The adapter was fine-tuned on top of **Llama 3.1 8B** and is intended to specialize the base model for the supporter-side generation task.
+The adapter was fine-tuned on top of **Llama 3.1 8B Instruct** and is intended to specialize the base model for the supporter-side generation task.
 
 Rather than releasing a fully merged checkpoint, this repository distributes the **parameter-efficient LoRA adapter**, which should be loaded together with the corresponding base model during inference.
 
